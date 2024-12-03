@@ -15,7 +15,7 @@
 
 /*
   use additional mutex if you need.
-  explain what is the reason, which part bocame thread safe after
+  explain what is the reason, which part became thread safe after
 */
 
 sem_t assembly_machines;
@@ -73,7 +73,7 @@ int main() {
 
     // TODO 
     /*
-        initialize semaphors 
+        initialize semaphores 
         create threads 
     */
     

@@ -18,7 +18,7 @@ enum Direction{
 
 pthread_mutex_t Intersection_lock;
 
-// For handeling right turn logic
+// For handling right turn logic
 void turn_right(int id, int direction){    
     // Improve this Function
     pthread_mutex_lock(&Intersection_lock);
@@ -46,7 +46,7 @@ void turn_right(int id, int direction){
 }
 
 
-// For handeling Streight logic
+// For handling straight logic
 void go_straight(int id, int direction){ 
     // Improve this function
     pthread_mutex_lock(&Intersection_lock);   
@@ -73,7 +73,7 @@ void go_straight(int id, int direction){
     pthread_mutex_unlock(&Intersection_lock);
 }
 
-// For handeling left turn logic
+// For handling left turn logic
 void turn_left(int id, int direction){ 
     // Improve this function
     pthread_mutex_lock(&Intersection_lock);   
